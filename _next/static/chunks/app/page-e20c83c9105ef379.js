@@ -712,7 +712,7 @@
                             children: "join $BILLI",
                           }),
                           (0, o.jsx)("a", {
-                            href: "https://t.me/billi_solana",
+                            href: "https://t.me/billi_erc20",
                             target: "_blank",
                             rel: "noopener noreferrer",
                             className: "bg-black rounded-3xl p-4",
@@ -725,7 +725,7 @@
                             }),
                           }),
                           (0, o.jsx)("a", {
-                            href: "https://x.com/billi_solana",
+                            href: "https://x.com/billi_erc20",
                             target: "_blank",
                             rel: "noopener noreferrer",
                             className: "bg-black rounded-3xl p-4",

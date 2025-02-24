@@ -263,7 +263,7 @@
                       (0, o.jsx)("input", {
                         type: "text",
                         readOnly: !0,
-                        value: "0xcomingsoon",
+                        value: "0x9c10e9B1894cc5080DCcab872dE0Fe12530D893D",
                         className:
                           "flex-1 p-2 rounded border border-black rounded-3xl text-center",
                         style: {
@@ -279,7 +279,7 @@
                         onClick: () => {
                           navigator.clipboard
                             .writeText(
-                              "0xcomingsoon"
+                              "0x9c10e9B1894cc5080DCcab872dE0Fe12530D893D"
                             )
                             .then(() => alert("Copied to clipboard!"))
                             .catch((e) => console.error("Failed to copy: ", e));
@@ -296,7 +296,7 @@
                       (0, o.jsx)(k, {
                         onClick: () =>
                           window.open(
-                            "https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0xcomingsoon",
+                            "https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0x9c10e9B1894cc5080DCcab872dE0Fe12530D893D",
                             "_blank"
                           ),
                         children: "Buy on Uniswap",
@@ -960,7 +960,7 @@
                       (0, o.jsx)("input", {
                         type: "text",
                         readOnly: !0,
-                        value: "0xcomingsoon",
+                        value: "0x9c10e9B1894cc5080DCcab872dE0Fe12530D893D",
                         className:
                           "flex-1 p-2 rounded border border-black rounded-3xl text-center",
                         style: {
@@ -977,7 +977,7 @@
                         onClick: () => {
                           navigator.clipboard
                             .writeText(
-                              "0xcomingsoon"
+                              "0x9c10e9B1894cc5080DCcab872dE0Fe12530D893D"
                             )
                             .then(() => alert("Copied to clipboard!"))
                             .catch((e) => console.error("Failed to copy: ", e));
@@ -1202,7 +1202,7 @@
                 className: "flex justify-center space-x-8 p-1",
                 children: [
                   (0, o.jsx)("a", {
-                    href: "https://www.dextools.io/",
+                    href: "https://www.dextools.io/app/en/ether/pair-explorer/0x2f1da8d684474c6cfbe8db4ffc71059c6cf1d644?t=1740360809079",
                     onMouseEnter: () => d("dextools", !0),
                     onMouseLeave: () => d("dextools", !1),
                     className: "cursor-pointer",
@@ -1218,7 +1218,7 @@
                     }),
                   }),
                   (0, o.jsx)("a", {
-                    href: "https://dexscreener.com/ethereum/0xcomingsoon",
+                    href: "https://dexscreener.com/ethereum/0x9c10e9B1894cc5080DCcab872dE0Fe12530D893D",
                     onMouseEnter: () => d("dexscreener", !0),
                     onMouseLeave: () => d("dexscreener", !1),
                     className: "cursor-pointer",
@@ -1436,7 +1436,7 @@
                   className: "buy-button-img",
                   onClick: () => {
                     window.open(
-                      "https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0xcomingsoon",
+                      "https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0x9c10e9B1894cc5080DCcab872dE0Fe12530D893D",
                       "_blank"
                     );
                   },

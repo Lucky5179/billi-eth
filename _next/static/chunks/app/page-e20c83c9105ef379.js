@@ -1010,11 +1010,11 @@
             d = async () => {
               try {
                 if (!a) {
-                  alert("Please enter a Solana public key");
+                  alert("Please enter a ERC20 public key");
                   return;
                 }
                 if (!c(a)) {
-                  alert("Invalid Solana public key");
+                  alert("Invalid ERC20 public key");
                   return;
                 }
                 console.log("Fetching balance for public key:", a);
@@ -1202,7 +1202,7 @@
                 className: "flex justify-center space-x-8 p-1",
                 children: [
                   (0, o.jsx)("a", {
-                    href: "https://www.dextools.io/app/en/solana/pair-explorer/HePP88n77YgSZdFbqLHgSMpqHdCqJmiGmwFZ5vUhZd9i?t=1722012141712",
+                    href: "https://www.dextools.io/",
                     onMouseEnter: () => d("dextools", !0),
                     onMouseLeave: () => d("dextools", !1),
                     className: "cursor-pointer",
@@ -1218,7 +1218,7 @@
                     }),
                   }),
                   (0, o.jsx)("a", {
-                    href: "https://dexscreener.com/solana/hepp88n77ygszdfbqlhgsmpqhdcqjmigmwfz5vuhzd9i",
+                    href: "https://dexscreener.com/ethereum/0xcomingsoon",
                     onMouseEnter: () => d("dexscreener", !0),
                     onMouseLeave: () => d("dexscreener", !1),
                     className: "cursor-pointer",
@@ -1436,7 +1436,7 @@
                   className: "buy-button-img",
                   onClick: () => {
                     window.open(
-                      "https://raydium.io/swap/?outputCurrency=CmLfUYD69N4cdthVJBAcojPhZvFTwEz3Xo2TuBzLpump&inputMint=sol&outputMint=CmLfUYD69N4cdthVJBAcojPhZvFTwEz3Xo2TuBzLpump",
+                      "https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0xcomingsoon",
                       "_blank"
                     );
                   },
